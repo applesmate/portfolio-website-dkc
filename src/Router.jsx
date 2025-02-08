@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-function App() {
+export default function Router() {
   const [count, setCount] = useState(0)
 
   return (
@@ -39,5 +39,3 @@ function App() {
     </>
   )
 }
-
-export default App
