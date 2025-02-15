@@ -4,10 +4,9 @@ import Router from './Router';
 export default function App() {
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Router />
-      </BrowserRouter> */}
-      testing a push
+      </BrowserRouter>
     </>
   )
 }
