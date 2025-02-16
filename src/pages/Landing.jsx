@@ -51,7 +51,8 @@ export default function Landing() {
             </clipPath>
           </defs>     
       
-          <image id="image1" className="image__svg-image" width="100%" height="100%" clipPath="url(#mask1)" href="src/assets/linkedin.jpg"/>
+          <image id="image1" className="image__svg-image" width="100%" height="100%" clipPath="url(#mask1)" href="https://imagedelivery.net/SYqdpHruew-sMg33y-POLQ/8a106c8d-f891-4eb9-c3ec-50d50b75b500/public"/>
+          {/* <image id="image1" className="image__svg-image" width="100%" height="100%" clipPath="url(#mask1)" href="src/assets/linkedin.jpg"/> */}
         </svg>
       </div>
       <div className="absolute left-0 top-40">
@@ -62,7 +63,7 @@ export default function Landing() {
             </clipPath>
           </defs>     
       
-          <image id="image2" className="image__svg-image" height="100%" x="-75%" clipPath="url(#mask2)" href="src/assets/scary.jpg"/>
+          <image id="image2" className="image__svg-image" height="100%" x="-75%" clipPath="url(#mask2)" href="https://imagedelivery.net/SYqdpHruew-sMg33y-POLQ/1c07cb97-b077-4a27-280a-d8c777e96600/public"/>
         </svg>
       </div>
     </div>
