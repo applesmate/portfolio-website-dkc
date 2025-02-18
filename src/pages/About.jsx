@@ -26,27 +26,26 @@ export default function About() {
         <h1 className="text-white font-[Baumans] my-20">About Me</h1>
         { toLandscape ? (
           <div className="flex flex-row justify-around">
-            <div className="relative max-w-5/8 min-w-100 h-150 text-center text-white text-start self-center font-normal flex flex-col gap-6 justify-around outline-2 outline-black">
-              <h2 className="underline">Undergrad Software Engineer at UNSW (2022-)</h2>
-              <h3>4th year Software Engineering student at UNSW</h3>
-              <h3>Lead developer at TRIPLEBARREL</h3>
-              <h3>Lead developer of UNSW Esports Web Dev 2024 Team</h3>
-              <h3>Casual animator and basketball player</h3>
-              <h3>I am awesome as I am Damon Khor Crowley</h3>
+            <div className="relative max-w-5/8 min-w-100 h-150 text-center text-white text-start self-center font-normal flex flex-col gap-6 justify-around">
+              <h2>Welcome to my website!</h2>
+              <h3>My name is Damon Khor Crowley and I am a 4th year Software Engineering student at UNSW, with an interest in databases and algorithms. I have been doing full stack projects comfortably for around a year now and have started a couple of passion projects with my friends (see Projects tab for more info)</h3>
+              <h3>In my spare time, I play basketball, animate, practice my trumpet and work on my fighting game, Fortress Smash</h3>
+              <h3>My favourite quote is:</h3>
+              <h2 className="text-end italic text-orange-200">"There's only been one Damon Khor Crowley. There's only ever gonna be one Damon Khor Crowley" - Blade</h2>
             </div>
             <img src="https://imagedelivery.net/SYqdpHruew-sMg33y-POLQ/8a106c8d-f891-4eb9-c3ec-50d50b75b500/public" className="w-1/3 h-1/3" alt="Damon Khor Crowley"/>
           </div> 
         ) : (
-          <div className="flex flex-col justify-around">
-            <div className="relative max-w-5/8 min-w-100 h-150 text-center text-white text-start self-center font-normal flex flex-col gap-6 justify-around outline-2 outline-black">
-              <h2 className="underline">Undergrad Software Engineer at UNSW (2022-)</h2>
-              <h3>4th year Software Engineering student at UNSW</h3>
-              <h3>Lead developer at TRIPLEBARREL</h3>
-              <h3>Lead developer of UNSW Esports Web Dev 2024 Team</h3>
-              <h3>Casual animator and basketball player</h3>
-              <h3>I am awesome as I am Damon Khor Crowley</h3>
+          <div className="flex flex-col justify-around align-center gap-6 overflow-hidden align-center">
+            <img src="https://imagedelivery.net/SYqdpHruew-sMg33y-POLQ/8a106c8d-f891-4eb9-c3ec-50d50b75b500/public" className="w-1/3 h-1/3 self-center" alt="Damon Khor Crowley"/>
+            <div className="relative max-w-5/8 min-w-100 h-150 text-center text-white text-start self-center font-normal flex flex-col gap-6 justify-around">
+              <h2>Welcome to my website!</h2>
+              <h3>My name is Damon Khor Crowley and I am a 4th year Software Engineering student at UNSW, with an interest in databases and algorithms. I have been doing full stack projects comfortably for around a year now and have started a couple of passion projects with my friends (see Projects tab for more info)</h3>
+              <h3>In my spare time, I play basketball, animate, practice my trumpet and work on my fighting game, Fortress Smash</h3>
+              <h3>My favourite quote is:</h3>
             </div>
-            <img src="https://imagedelivery.net/SYqdpHruew-sMg33y-POLQ/8a106c8d-f891-4eb9-c3ec-50d50b75b500/public" className="w-1/3 h-1/3" alt="Damon Khor Crowley"/>
+            <h2 className="text-end italic text-orange-200 w-5/8 self-center">"There's only been one Damon Khor Crowley. There's only ever gonna be one Damon Khor Crowley" - Blade</h2>
+            <div className="clear-both"></div>
           </div>
         )}
         <Footer/>
