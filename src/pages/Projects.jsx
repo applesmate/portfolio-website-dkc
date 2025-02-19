@@ -9,6 +9,12 @@ export default function Projects() {
       <div className="flex flex-col p-0 m-0 absolute w-screen top-0 min-h-1/1 align-center text-center">
         <Header/>
         <h1 className="text-white font-[Baumans] my-20">Projects</h1>
+        <div className="flex flex-col align-center">
+          <div className="bg-linear-to-t from-blue-500 to-blue-700 w-4/8 min-h-50 outline-4 rounded-full outline-white outline- m-auto text-white justify-center flex flex-col">
+            <h2>Penfriends</h2>
+            <h3>Cooked project I didn't finish</h3>
+          </div>
+        </div>
         <Footer/>
       </div>
     </div>

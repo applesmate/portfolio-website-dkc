@@ -21,12 +21,15 @@ export default function About() {
   
   return (   
     <div className="bg-linear-to-t from-red-500 to-red-800 w-1/1 min-h-screen fixed overflow-scroll p-0 m-0">
-      <div className="flex flex-col p-0 m-0 absolute w-screen top-0 min-h-1/1 align-center text-center">
+      <div className="flex flex-col p-0 m-0 absolute w-screen top-0 min-h-1/1 align-center text-center gap-2">
         <Header/>
         <h1 className="text-white font-[Baumans] my-20">About Me</h1>
+        <h4 className="underline text-white font-[Roboto]">Email: damon.k.crowley@gmail.com</h4>
+        <h4 className="underline text-white font-[Roboto]">Phone: +61 481 207 607</h4>
         { toLandscape ? (
           <div className="flex flex-row justify-around">
             <div className="relative max-w-5/8 min-w-100 h-150 text-center text-white text-start self-center font-normal flex flex-col gap-6 justify-around">
+              
               <h2>Welcome to my website!</h2>
               <h3>My name is Damon Khor Crowley and I am a 4th year Software Engineering student at UNSW, with an interest in databases and algorithms. I have been doing full stack projects comfortably for around a year now and have started a couple of passion projects with my friends (see Projects tab for more info)</h3>
               <h3>In my spare time, I play basketball, animate, practice my trumpet and work on my fighting game, Fortress Smash</h3>
