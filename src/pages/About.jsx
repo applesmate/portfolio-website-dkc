@@ -18,6 +18,10 @@ export default function About() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const activatePortal = () => {
+    alert("You have activated the portal! You are now in the realm of the unknown");
+  }
   
   return (   
     <div className="bg-linear-to-t from-orange-500 to-orange-800 w-1/1 min-h-screen fixed overflow-scroll p-0 m-0">
@@ -58,6 +62,7 @@ export default function About() {
           </div>
         )}
         <Footer/>
+        <button className="absolute text-orange-800 top-20 focus:outline-none focus:border-none" onClick={() => activatePortal()}>do not click me</button>
       </div>
     </div>
   )
