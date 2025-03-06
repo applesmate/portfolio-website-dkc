@@ -27,7 +27,7 @@ export default function Landing() {
   }, [timer]);
 
   return (   
-    <div className="bg-linear-to-t from-red-500 to-red-800 w-1/1 min-h-screen fixed overflow-scroll p-0 m-0 text-center flex flex-col justify-center">
+    <div className="bg-linear-to-t from-orange-500 to-orange-800 w-1/1 min-h-screen fixed overflow-scroll p-0 m-0 text-center flex flex-col justify-center">
       <h1 className="font-[Baumans] text-white">You will enter damon's domain in</h1>
       <h1 className="font-[Baumans] text-xl text-white">{timer > 0 ? timer : 1} </h1>
     </div>

@@ -19,8 +19,8 @@ export default function Home() {
   }, []);
 
   return (   
-    <div className="bg-linear-to-t from-red-500 to-red-800 w-1/1 min-h-screen fixed overflow-scroll p-0 m-0">
-      <div className="flex flex-col p-0 m-0 absolute w-screen top-0 min-h-1/1 align-center text-center">
+    <div className="bg-linear-to-t from-orange-500 to-orange-800 w-1/1 min-h-screen fixed overflow-scroll p-0 m-0">
+      <div className="flex flex-col p-0 m-0 absolute w-1/1 top-0 min-h-1/1 align-center text-center">
         <Header/>
         <h1 className="text-white font-[Baumans] my-20">Damon Khor Crowley</h1>
         <div className="relative w-2/8 min-w-100 h-150 text-center text-white self-center font-normal flex flex-col gap-6 justify-around">
@@ -33,6 +33,7 @@ export default function Home() {
         </div>
         <Footer/>
       </div>
+      <button className="absolute top-0 right-0 bg-white text-black p-2 m-2 rounded-full">Toggle Images</button>
       { showImages && 
       <>
         <div className="absolute right-0 top-40">
