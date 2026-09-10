@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <Footer />
       </div>
-      <button className="absolute top-0 right-0 bg-white text-black p-2 m-2 rounded-full">Toggle Images</button>
+      <button onClick={() => setShowImages(!showImages)} className="absolute top-0 right-0 bg-white text-black p-2 m-2 rounded-full">Toggle Images</button>
       {showImages &&
         <>
           <div className="absolute right-0 top-40">

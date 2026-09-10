@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import { useState, useEffect } from "react"
 import "@fontsource/biorhyme";
 import './../index.css';
+import './../App.css';
 
 export default function Projects() {
   return (
@@ -12,16 +13,17 @@ export default function Projects() {
         <Header />
         <h1 className="text-white font-[Baumans] my-20">Projects</h1>
         <div className="flex flex-col align-center gap-10">
-          <button onClick={() => window.open("https://github.com/TRIPLEBARREL/penfriends")} className="bg-linear-to-t from-amber-200 to-amber-300 hover:bg-linear-to-t hover:from-yellow-100 hover:to-yellow-200 w-4/8 min-h-30 outline-4 rounded-full outline-white outline- m-auto text-black justify-center flex flex-col">
-            <h2 className="font-[BioRhyme]">PENFRIENDS</h2>
-            <h3>Unfinished discreet messaging project</h3>
+          <button onClick={() => window.open("https://github.com/TRIPLEBARREL/penfriends")} className="bg-linear-to-t from-gray-200 to-gray-300 hover:bg-linear-to-t hover:from-gray-700 hover:to-gray-600 w-4/8 min-h-30 outline-4 rounded-full outline-white outline- m-auto text-black justify-center flex flex-col">
+            {false && <h2 className="font-[BioRhyme]">PENFRIENDS</h2>}
+            <h2 className="font-black">PENFRIENDS</h2>
+            <h3>Unfinished discreet messaging project (Privated)</h3>
           </button>
-          <button onClick={() => window.open("https://github.com/TRACSLab-UNSW/Project_Flying_Car")} className="bg-linear-to-t from-green-900 to-green-700 hover:bg-linear-to-t hover:from-lime-700 hover:to-lime-600 w-4/8 min-h-30 outline-4 rounded-full outline-white outline- m-auto text-white justify-center flex flex-col">
-            <h2>Flying Car Simulator</h2>
-            <h3>Vertically Integrated Project (VIP) I contributed to in 2025 for university</h3>
+          <button onClick={() => window.open("https://github.com/TRACSLab-UNSW/Project_Flying_Car")} className="bg-linear-to-t from-gray-200 to-gray-300 hover:bg-linear-to-t hover:from-gray-700 hover:to-gray-600 w-4/8 min-h-30 outline-4 rounded-full outline-white outline- m-auto text-white justify-center flex flex-col">
+            <h2 className="font-black">Flying Car Simulator</h2>
+            <h3 className="font-black">Vertically Integrated Project (VIP) I contributed to in 2025 for university (Privated)</h3>
           </button>
           <button onClick={() => window.open("https://github.com/DamonKongCountry/verifiable-credentials-zk-application")} className="bg-linear-to-t from-blue-900 to-blue-700 hover:bg-linear-to-t hover:from-teal-700 hover:to-teal-600 w-4/8 min-h-30 outline-4 rounded-full outline-white outline- m-auto text-white justify-center flex flex-col">
-            <h2>BBS+ Verifier App</h2>
+            <h2 className="font-[BioRhyme]">BBS+ Verifier App</h2>
             <h3>Thesis Project with AWS architecture demonstrating verification outside of crypto-trading</h3>
           </button>
         </div>
@@ -36,8 +38,8 @@ export default function Projects() {
             <h3 className="font-[Baumans]">My Magnum Opus (for the moment)</h3>
           </button>
           <button onClick={() => alert("This isn't a reality, yet!")} className="bg-linear-to-t from-emerald-900 to-emerald-700 hover:bg-linear-to-t hover:from-emerald-700 hover:to-emerald-600 w-4/8 min-h-30 outline-4 rounded-full outline-white outline- m-auto text-white justify-center flex flex-col">
-            <h2 className="font-[Stretch]">Rage Valley</h2>
-            <h3 className="font-[Baumans]">Compilation of shorts I do, with musicals</h3>
+            <h2 className="font-[Stretch]">Team Zorkress</h2>
+            <h3 className="font-[Baumans]">TF2 inspired boomer dungeon crawler, still formulating it lol</h3>
           </button>
         </div>
         <Footer />

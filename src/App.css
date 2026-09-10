@@ -68,3 +68,8 @@
   border: none;
   cursor: pointer;
 }
+
+.font-black {
+  color: black;
+  font-weight: normal;
+}
